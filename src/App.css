@@ -1,0 +1,29 @@
+
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    'h h'
+    'n p';
+    grid-template-columns: 2fr 10fr;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    grid-gap: 10px;
+}
+
+.wrapper>div {
+    background-color: rgb(101, 63, 63);
+}
+
+.header {
+    grid-area: h;
+}
+
+.navbar {
+    grid-area: n;
+}
+
+.profile {
+    grid-area: p;
+}
